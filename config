@@ -166,4 +166,5 @@ bindsym $mod+x move workspace to output right
 bindsym $mod+l exec i3lock -u -c 000000
 # Wallpaper: sudo apt install feh
 exec --no-startup-id feh --bg-scale ~/my-i3-config/wallpapers/onepunchman.jpg
-
+# Open pycharm
+bindsym $mod+p exec ./pycharm/bin/pycharm.sh
