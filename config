@@ -168,3 +168,6 @@ bindsym $mod+l exec i3lock -u -c 000000
 exec --no-startup-id feh --bg-scale ~/my-i3-config/wallpapers/onepunchman.jpg
 # Open pycharm
 bindsym $mod+p exec ./pycharm/bin/pycharm.sh
+# Enable monitors:
+# xrand
+# xrandr --output [SECONDARY: I.E: DP1] --auto --left-of [MAIN, I.E: eDP1]
