@@ -169,5 +169,6 @@ exec --no-startup-id feh --bg-scale ~/my-i3-config/wallpapers/onepunchman.jpg
 # Open pycharm
 bindsym $mod+p exec ./pycharm/bin/pycharm.sh
 # Enable monitors:
-# xrand
+# xrandr
 # xrandr --output [SECONDARY: I.E: DP1] --auto --left-of [MAIN, I.E: eDP1]
+bindsym Control+Print exec gnome-screenshot -i
